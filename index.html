@@ -4,34 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index2.html">
 </head>
 <body>
-   
+   <h1>Inscrição</h1>
     <form>
-       <label for="input-name">Nome:</label>
+       <p><label for="input-name">Nome:</label>
         <input type="text"
         name="nome"
        placeholder="Informe seu nome"
        id="input-name"
-       required>
-
-      <label for="input-email">E-mail:</label>
+       required></p>
+       <p><label for="input-email">E-mail:</label>
        <input type="email" 
        name="email"
        placeholder="Informe seu email de cadastro"
        id="input-email"
-       required> 
-     
-     
-       <label for="input-senha">Senha:</label>
+       required></p> 
+       <p><label for="input-senha">Senha:</label>
        <input type="password" 
        name="senha"
        placeholder="Informe sua senha de cadastro"
        id="input-senha"
-       required>
-
-       <label for="input-cidade">Informe sua cidade:</label>
+       required></p>
+       <p><label for="input-cidade">Informe sua cidade:</label>
        <select name="" id="">
         <option value="Londrina">Londrina</option>
         <option value="Maringá">Maringá</option>
@@ -42,23 +39,16 @@
         <option value="Curitiba">Curitiba</option>
         <option value="Pato Branco">Pato Branco</option>
         <option value="Colombo">Colombo</option>
-       </select>
-       
-       <label for="input-gênero">Informe seu gênero:</label>
+       </select></p>
+       <p><label for="input-gênero">Informe seu gênero:</label>
        <select>
            <option value="Feminino">Feminino</option>
            <option value="Masculino">Masculino</option>
            <option value="Outro">Outros</option>
-       </select>
-       
-       <label for="input-termos">Aceite os termos:</label>
-       <input type="checkbox" name="" id=""
-       >
-
-       <input type="checkbox" name="" id="">
-       
-      
-       <button>Entrar</button>
+       </select></p>
+       <p><label for="input-termos">Li e aceito todos os termos.</label>
+       <input type="checkbox" name="" id="" required></p>
+       <p><button>Entrar</button></p>
        
     </form>
 
